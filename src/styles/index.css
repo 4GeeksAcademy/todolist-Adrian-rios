@@ -1,12 +1,25 @@
 
-/* 
+body{
+    background-color: black;
+    color:white;
+    font-weight: bolder;
+    font-size: larger;
+}
+ul{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+li{
+    background-color: grey;
+}
+ul li{
+    border: 1px solid grey;
+    list-style: none;
+    padding: 5px;
+}
 
-    You can write your own styles here...
+input{
+    border: none;
+    width: 100%;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
