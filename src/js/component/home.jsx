@@ -15,7 +15,7 @@ const Home = () => {
 			<h1 className="text-center mt-5">To do list</h1>
 			<ul className="">
 				<li>
-					<input
+					<input className="p-1"
 						type="text"
 						onChange={(e) => setInputValue(e.target.value)}
 						value={inputValue}
@@ -40,7 +40,7 @@ const Home = () => {
 				))}
 
 			</ul >
-			<div>
+			<div className="border border-white p-1">
 					{todos.length} task
 			</div>
 			
